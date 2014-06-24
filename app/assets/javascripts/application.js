@@ -12,5 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
 //= require turbolinks
+//= require skel.min
+//= require skel-panels.min
+//= require init
 //= require_tree .
+
+
+$(document).ready(function(){
+	
+
+});

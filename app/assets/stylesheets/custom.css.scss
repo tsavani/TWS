@@ -1,0 +1,86 @@
+ @import "bootstrap";
+
+    .field_with_errors { @extend .has-error; }
+    .alert-notice { @extend .alert-info; }
+    .alert-alert { @extend .alert-danger; }
+
+.serviceBg{	
+    width: 110%;
+    padding-bottom: 30%;
+}
+
+
+.service{
+	margin-left: 2%;
+}
+
+.space{
+	margin-bottom: 5%;
+}
+
+.bottom_footer {
+    background: none repeat scroll 0 0 #333333;
+    float: left;
+    padding: 5em 3em 5em 20em;
+    width: 100%;
+}
+
+.col-md-4 {
+    text-align: left;
+    width: 20%;
+}
+
+.col-md-4  h2 {
+    border-bottom: 1px solid #E2E2E2;
+    color: #E2E2E2;
+    float: left;
+    font-family: 'robotobold_condensed';
+    font-size: 150%;
+    font-weight: normal;
+    line-height: 160%;
+    padding: 0 0 0 5px;
+    width: 100%;
+}
+
+.col-md-4 ul{
+	float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 2px 0 0;
+    width: 100%;
+}
+
+.col-md-4 ul li {
+    border-bottom: 1px solid #555555;
+    float: left;
+    font-size: 110%;
+    line-height: 150%;
+    padding: 2px 5px;
+    width: 100%;
+}
+
+.col-md-4 ul{
+	float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 2px 0 0;
+    width: 100%;
+}
+.col-md-4 ul li a {
+    color: #CCCCCC;
+}
+
+.col-md-4 h2 a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.col-md-4 ul li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.col-md-4 ul li a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    outline: medium none;
+}
