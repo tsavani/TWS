@@ -22,5 +22,28 @@
 
 $(document).ready(function(){
 	
+		// $("#hide").click(function(){
+  //   			$("#service").hide();
+  //   			$('#hide').attr('value', 'show');
+  //   			$('#hide').attr('id', 'show');
+    			
+  // 		});
+
+  // 		$("#show").click(function(){
+  // 				$("#service").css('display','block');
+  //   			$('#service').show();
+  //   			$('#show').attr('value', 'hide');
+  //   			$('#show').attr('id', 'hide');
+    			
+    		
+  // 		});
+
+  		$('#hide').on('click',function(){
+  			$('#service').toggle('hide');
+  			$('#show').attr('value', 'hide');
+   	   
+  		});
+
+
 
 });
