@@ -39,8 +39,20 @@ $(document).ready(function(){
   // 		});
 
   		$('#hide').on('click',function(){
-  			$('#service').toggle('hide');
-  			$('#show').attr('value', 'hide');
+  			
+  		//	$('#service').toggle('hide');
+  		//	
+            var ele = $('#hide').attr('value');
+            if (ele == 'show')
+            {
+            		$('#hide').attr('value', 'hide');
+            		$('#service').css('visibility','visible');
+            }
+            else
+            {
+            		$('#hide').attr('value', 'show');
+            		$('#service').css('visibility','hidden');
+            }
    	   
   		});
 
